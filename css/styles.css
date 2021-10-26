@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+html{
+    scroll-behavior: smooth ;
+}
+
+body{
+    font-family:  'Lato', sans-serif;
+    background: url("data:image/svg+xml,%3Csvg width='40' height='12' viewBox='0 0 40 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.172L6.172 0h5.656L0 11.828V6.172zm40 5.656L28.172 0h5.656L40 6.172v5.656zM6.172 12l12-12h3.656l12 12h-5.656L20 3.828 11.828 12H6.172zm12 0L20 10.172 21.828 12h-3.656z' fill='%23000000' fill-opacity='0.01' fill-rule='evenodd'/%3E%3C/svg%3E") rgba(255, 255, 255, 0.87);
+}
+
+h1,h2,h3,h4,h5,h6,.link{
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', Serif;
+    font-weight: 500;
+}
+
+.homepage{
+    background-image: url("../images/home background acg.jpg");
+    background-repeat:repeat;
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    padding-bottom: 9%;
+}
+
+.service{
+    margin-bottom: 1rem;
+    color: rgb(33, 33, 33);
+    padding: 8rem 1rem 7rem;
+    clip-path: polygon(0% 14%, 100% 0px, 100% 84%, 0px 100%);
+    background: rgb(249, 249, 249);
+    text-align: center;
+}
+.sservice{
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#1D9BF0 !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#28a745 !important;
+}
+
+.animate__animated.animate__slideInLeft {
+    --animate-duration: 2s;
+}
+p{
+    font-family: 'EB Garamond', serif;
+}
+
+ #services h6{
+    color: #23c949;!important;
+}
+ #services,.row li{
+     font-family: 'EB Garamond', serif;
+ }
